@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ristorante Pizzeria Positano</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <img src="logo.PNG" alt="Logo Ristorante Pizzeria Positano">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/HomePositano.php">Home</a></li>
+        <li><a href="/MenuPositano.php">Menù</a></li>
+        <li><a href="/MenudellePizze.php">Menù delle Pizze</a></li>
+        <li><a href="/PrenotazioniPositano.php">Prenotazioni</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h1>Benvenuti al Ristorante Pizzeria Positano</h1>
+    <p>La nostra pizza napoletana dal 1990.</p>
+    <p>E' degustata piacevolmente nel nostro ristorante pizzeria Positano, grazie alle novità apportate dal grande pizzaiolo fondatore Ciro Memoli.</p>
+  </main>
+  
+  <div2 class="carousel">
+  <img src="pizza1.png" alt="Pizza 1">
+  <img src="pizza2.png" alt="Pizza 2">
+  <img src="pizza3.png" alt="Pizza 3">
+  <img src="pizza4.png" alt="Pizza 4">
+</div2>
+
+  <a href="https://www.google.com/maps" target="_blank">
+    <img src="maps.png" alt="Google Maps" id="google-maps-image">
+  </a>
+  
+  <a href="Prenotazioni.html">
+  <img src="prenotazioni.png" alt="Immagine cliccabile" id="Immagine cliccabile"/>
+</a>
+
+<style type="text/css">
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#logo img {
+  height: 150px;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: auto;
+  background-color: #ffa22c;
+    text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+    text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+    text-align: center;
+}
+
+
+main {
+  padding: 30px;
+  text-align: center;
+  color: #333;
+}
+
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #FA0300
+}
+
+.carousel {
+  position: fixed;
+  bottom: 100px;
+  left: 70px;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 110%;
+  height: auto;
+  display: block;
+}
+
+.carousel img:first-child {
+  display: block;
+}
+
+#google-maps-image {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+  height: 200px; 
+}
+
+#immagine-cliccabile {
+  display: block;
+  margin-right: -100 auto;
+  text-align: right;
+  width: 50px;
+  height: 50px; 
+}
+
+</body>
+</html>
